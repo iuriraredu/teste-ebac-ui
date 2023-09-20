@@ -15,7 +15,7 @@ describe('Funcionalidade Página de Produtos', () => {
         cy.url().should('contain', '/product/')
     });
 
-    it.only('Deve adicionar um produto ao carrinho ', () => {
+    it('Deve adicionar um produto ao carrinho ', () => {
         var quantidade = 5;
 
         cy.get('[class="product-block grid"]').contains('Abominable Hoodie').click()
@@ -27,6 +27,15 @@ describe('Funcionalidade Página de Produtos', () => {
         cy.get('.dropdown-toggle > .mini-cart-items').should('contain',quantidade)
         cy.get('.woocommerce-message').should('contain', quantidade + ' × “Abominable Hoodie” foram adicionados no seu carrinho.')
 
+    });
+
+    it.only('Deve adicionar produtos ao carrinho usando comando customizados ', () => {
+        cy.addProdutos('Abominable Hoodie', 'M', 'Green', 3);
+
+        cy.get('.dropdown-toggle > .mini-cart-items').should('contain', 3);
+        cy.get('.woocommerce-message').should('contain', 3 + ' × “Abominable Hoodie” foram adicionados no seu carrinho.');
+
+        
     });
 
 });
