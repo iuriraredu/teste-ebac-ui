@@ -1,0 +1,43 @@
+[
+    {
+        "nome": "Luísa",
+        "sobrenome": "Gerloff",
+        "empresa": "Sonza",
+        "pais": "Brasil",
+        "logradouro": "Rua do Escândalo Íntimo",
+        "numero": "24",
+        "cidade": "Tuparendi",
+        "estado": "Rio Grande do Sul",
+        "cep": "98940000",
+        "telefone": "5555987654321",
+        "email": "luisa.gerloff@sonza.com.br"
+    },
+    {
+        "nome": "Marina",
+        "sobrenome": "de Oliveira",
+        "empresa": "Sena",
+        "pais": "Brasil",
+        "logradouro": "Rua do Vício Inerente",
+        "numero": "12",
+        "cidade": "Taiobeiras",
+        "estado": "Minas Gerais",
+        "cep": "39550000",
+        "telefone": "5538987654321",
+        "email": "marina.sena@deoliveira.com.br"
+
+    },
+    {
+        "nome": "Eduarda",
+        "sobrenome": "Bittencourt",
+        "empresa": "Simões",
+        "pais": "Brasil",
+        "logradouro": "Rua do Te Amo Lá Fora",
+        "numero": "11",
+        "cidade": "Recife",
+        "estado": "Pernambuco",
+        "cep": "51230000",
+        "telefone": "5581987654321",
+        "email": "duda.beat@simoes.com.br"
+
+    }
+]
